@@ -1,0 +1,639 @@
+*{
+	font-family: 'Lustria', serif;
+}
+
+body{
+	margin: 0px;
+	background-color:#000000;
+}
+
+#logo {
+	min-height: 100px;
+        background-color: #000000;
+}
+
+.logo_esp {
+    padding-top: 5px;
+    padding-bottom: 5px;    
+}
+
+
+.num_esp {
+    font-size: 20px;
+    text-align: right;
+    padding-top: 48px;
+    color:#ffffff;
+}
+
+#slidershow {
+	padding-top: 80px;
+	
+}
+
+.item.active .carousel-caption h3 {
+	color: #000000;
+}
+
+/*pading de nosotros*/
+#nosotros .container {
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+
+/*titulo pagina principal*/
+#nosotros .row .col-md-12.text-center h2 {
+	color: #F0A406;
+}
+/*titulo pagina principal*/
+
+/*parrafo*/
+#nosotros .row .col-md-8 p {
+	color: #FFFFFF;
+	font-size: 15px;	
+}
+/*parrafo*/
+
+
+/*parallex*/
+#parallex{
+	height: 600px;
+	background-image:url(../images/jpg/esmeril1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/*parallex*/
+
+
+/*seccion servicios*/
+#ofrecidos {
+	background-color:#FFFFFF;	
+}
+
+
+#ofrecidos .container {
+	background-color: #FFFFFF;
+	padding: 0px;	
+	border: 1px solid #F0A406;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	/*border-radius: 5px;*/	
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;	
+	transition: 0.3s;
+}
+
+#ofrecidos .container:hover {
+	background-color: rgba(0,0,0,1);
+	color: #FFFFFF;	
+	font-size: 14px;
+	font-style: italic;
+}
+
+#ofrecidos .row .col-md-8 .text-left {
+	
+}
+
+
+#ofrecidos .row .col-md-8 .text-justify {
+	margin-right: 25px;	
+	font-size: 14px;	
+}
+
+#ofrecidos .row .col-md-4 .img-responsive {
+	/*border-radius: 5px 0px 0px 5px;	*/
+}
+
+#ofrecidos .col-md-8 p .btn {
+	color:#FFFFFF;
+	background-color: #F0A406;	
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+#ofrecidos .col-md-8 p .btn:hover{
+	color:#FFFFFF;
+	background-color:#395CBB;
+}
+#ofrecidos .container-fluid.text-center {
+	margin-top: 25px;
+}
+/*seccion servicios*/
+
+
+/*seccion proveedores*/
+#proveedores {
+	background-color: #FFFFFF;
+}
+
+.row.text-center .col-xs-6 .col-md-3 {
+	padding: 10px 0px 85px 0px;
+	height: 25px;
+}
+
+.row.text-center .col-xs-6 .col-md-3 img {	
+	height: 20px;
+}
+/*seccion proveedores*/
+
+
+/*pie de pagina*/
+#pie {
+        text-align: center;
+	color: #FFFFFF;
+	padding-top: 35px;	
+	padding-bottom: 20px;
+}
+
+#pie .col-sm-4.col-xs-6 p img {
+	margin-bottom: 6px;
+}
+
+.row .col-sm-4.col-xs-6 p {
+	font-size: 12px;	
+}
+
+#pie .row .col-sm-4.col-xs-12 {
+        font-size: 12px;        
+	margin-top: 10px;
+        margin-bottom: 20px;
+	}        
+/*pie de pagina*/
+
+
+/*hoja nosotros*/
+#tit_nos {
+	background-color: #FFFFFF;
+	padding-top: 18px;
+}
+
+#pres_nos {
+	color:#000000;
+	background-color:#FFFFFF;
+	padding: 30px 0px;
+	font-size: 14px;	
+}
+
+.row .col-lg-8.col-md-8.col-sm-10.col-xs-12 .text-justify {
+	font-size: 14px;
+}
+
+#pres_nos .container .col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+
+#pres_nos .container .col-lg-12.col-md-12.col-sm-12.col-xs-12 .img-responsive{
+	margin: 0 auto;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	
+}
+
+#pres_nos .container .col-lg-12.col-md-12.col-sm-12.col-xs-12 .img-responsive:hover{	
+	-webkit-filter:brightness(0.8);
+	-moz-filter:brightness(0.8);
+	-ms-filter:brightness(0.8);
+	-o-filter:brightness(0.8);
+	filter:brightness(0.8);
+}
+/*hoja nosotros*/
+
+
+/*hoja servicios*/	
+#pres_serv {
+	background-color: #FFFFFF;
+	padding: 18px 0px 18px 0px;	
+}
+
+
+/*mantenimiento-reparaciones*/
+#mant_rep {
+	background-color: #FFFFFF;	
+}
+
+
+#mant_rep .container {
+	margin-top: 30px;
+	margin-bottom: 50px;	
+}
+
+#mant_rep .row .col-lg-8.col-md-8.col-sm-8.col-xs-12 .text-justify {
+	font-size: 14px;
+}
+
+#mant_rep ul li {
+	font-size: 14px;
+}
+
+#mant_rep .row .col-lg-4.col-md-4.col-sm-4.col-xs-12 {
+	margin-top: 30px;
+}
+
+
+/*ventas*/
+#imagenes_serv {
+	background-color:#000000;
+	color: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.row.text-center.text-lg-left .col-md-4.col-sm-6.col-xs-12 div {
+	border: 1px solid #000000;
+	margin-bottom: 30px;
+	overflow: hidden;		
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.row.text-center.text-lg-left .col-md-4.col-sm-6.col-xs-12 div:hover {
+	border: 1px solid #FFFFFF;
+	background-color:#F0A406;
+	color: #000000;
+}
+
+.col-md-4.col-sm-6.col-xs-12 div h3 {
+	padding-bottom: 15px;
+	padding-top: 8px;
+}
+
+.col-md-4.col-sm-6.col-xs-12 div .img-fluid.img-responsive {		
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;	
+}
+
+.col-md-4.col-sm-6.col-xs-12 div .img-fluid.img-responsive:hover {	
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	transform:scale(1.1);
+	
+	-webkit-filter:brightness(0.8);
+	-moz-filter:brightness(0.8);
+	-ms-filter:brightness(0.8);
+	-o-filter:brightness(0.8);
+	filter:brightness(0.8);
+}
+/*hoja servicios*/
+
+
+
+/*hoja contactos*/
+#pres_cont{			
+	background-color:#FFFFFF;
+	padding: 18px 0px 18px 0px;
+	font-size: 14px;
+}
+#form_cont{
+ 	background-color: #FFFFFF;	
+	padding-bottom: 30px;	
+}
+
+#form_cont .container {
+	border: 1px solid #F0A406;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.form-line{
+  	border-right: 1px solid #F0A406;
+}
+
+.col-md-6.col-xs-12 div .btn {
+	float: right;
+	width: 100px;
+	background-color: #F0A406;
+	color:#FFFFFF;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	
+}
+
+.col-md-6.col-xs-12 div .btn:hover {
+	float: right;
+	width: 100px;
+	color:#FFFFFF;
+	background-color:#395CBB;
+}
+
+#mapa {
+	background-color: #FFFFFF;
+	padding-top: 8px;
+	padding-bottom: 40px;
+}
+
+#mapa .container {
+	padding: 0px;
+}
+
+#mapa .container .img-responsive {	
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);	
+	filter: grayscale(100%);
+	
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+
+
+#mapa .container .img-responsive:hover {		
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+/*hoja contactos*/
+
+
+/*clases*/
+.subrayado {
+	width:20%;
+	height:2px; 
+   	background-color:#F0A406;
+}
+
+.enlaces {
+	color: #FFFFFF;		
+}
+
+.enlaces:hover {
+	color: #F0A406;
+	text-decoration-color: #000000;
+}
+
+.title1 {
+	background-color: #FFFFFF;
+	padding-bottom: 18px;	
+}
+
+.title2 {
+	background-color:#000000;
+	color:#F0A406;
+	padding-top: 50px;	
+}
+
+.gris {
+	color: #929292;
+}
+
+#pie .row.text-center .col-sm-4.col-xs-12 a:focus {
+    color:#ffffff;
+    text-decoration: none;        
+}
+
+/*espacio en redes*/
+.redes {
+    padding-top:18px;
+}
+/*espacio en redes*/
+
+/*clases*/
+
+
+/*efecto fade-in*/
+.clase-fade-in {
+	animation: 1s fadein 1;
+}
+
+@-webkit-keyframes fadein {
+	0%
+	{
+		opacity: 0;	
+	}
+}
+
+@-moz-keyframes fadein {
+	0%
+	{
+		opacity: 0;	
+	}
+}
+
+@-o-keyframes fadein {
+	0%
+	{
+		opacity: 0;	
+	}
+}
+
+@keyframes fadein {
+	0%
+	{
+		opacity: 0;	
+	}
+}
+/*efecto fade-in*/
+
+
+/*media queries*/
+@media (max-width:1200px){
+        .num_esp {
+            font-size: 20px;
+            text-align: right;
+            padding-top: 38px;
+            color:#ffffff;
+        }
+}
+
+
+@media (max-width:992px){
+    
+        .logo_esp {
+            padding-top: 14px;
+            padding-bottom: 0px;    
+        }
+
+        .num_esp {
+            font-size: 20px;
+            text-align: right;
+            padding-top: 34px;
+            color:#ffffff;
+        }
+        
+        
+	
+	/*nosotros*/
+	#nosotros .row .col-md-8 p {
+		/*font-size: 15px;*/
+		text-align: justify;
+	}
+
+	/*nosotros*/
+	
+	/*seccion servicios*/
+	
+	#parallex{
+	height: 0px;
+	background-image:url(../images/jpg/esmeril1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+        }
+	
+	
+	#ofrecidos {
+		background-color:#FFFFFF;	
+	}
+
+	#ofrecidos .container {
+		background: #FFFFFF;
+		padding: 0px;	
+		border: 1px solid #F0A406;
+		margin-top: 35px;
+		margin-bottom: 50px;
+		/*border-radius: 5px;*/
+	}
+	
+	.row .col-md-8 .text-left {
+		text-align: center;		
+	}
+	
+	.row .col-md-8 p {
+		text-align: center;
+	}
+		
+	
+	#ofrecidos .row .col-md-4 .img-responsive {
+		/*border-radius: 5px 5px 0px 0px;	 */   
+    	margin: 0 auto;
+		width: 100%;
+		
+	}
+
+	.row .col-md-8 .text-justify {
+		/*font-size: 15px;*/
+		text-align: justify;
+		margin: 5px;
+		padding-left: 10px;
+		padding-right: 10px;			
+	}
+	/*seccion servicios*/
+	
+	
+	
+	/*seccion proveedores*/	
+	.row.text-center .col-sm-6 .col-md-3 {
+		padding-bottom: 60px;
+	}
+	/*seccion proveedores*/	
+	
+	
+	/*pie de pagina*/
+	#pie {
+	color: #FFFFFF;	
+	/*text-align: center;*/
+	/*font-size: 12px;*/
+	}	
+	
+	#pie .row .col-sm-4.col-xs-6{
+	/*text-align: center;*/
+	padding-bottom: 24px;
+	}	
+	
+	#pie .row .col-sm-4.col-xs-12 {
+	/*text-align: center;*/
+	}
+	/*pie de pagina*/
+	
+	/*seccion servicios - imagen a lo ancho modo tablet*/
+	.col-md-4.col-sm-6.col-xs-12 div .img-fluid.img-responsive {		
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+		
+	margin: 0 auto;
+	width: 100%;	
+	}
+	/*seccion servicios - imagen a lo ancho modo tablet*/
+	
+	
+	/*centrado responsive de titulos en hoja servicios*/
+	.clase-fade-in .container-fluid.title1 .container.text-left {
+		text-align: center;
+	}
+
+	.clase-fade-in .container-fluid.title2 .container.text-left {
+		text-align: center;
+	}
+	/*centrado responsive de titulos en hoja servicios*/
+	
+	
+	/*linea vertical de formulario*/
+	.form-line{
+  	border-right: 
+		1px solid rgba(255,255,255,0);
+	}
+	/*linea vertical de formulario*/
+	
+	/*posicion boton envio formulario*/	
+	.col-md-6.col-xs-12 div .btn {
+	float: left;
+	width: 100px;
+	background-color: #F0A406;
+	color:#FFFFFF;
+		
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	}
+	
+	.col-md-6.col-xs-12 div .btn:hover {
+	float: left;
+	width: 100px;
+	color:#FFFFFF;
+	background-color:#395CBB;
+	}
+	/*pocision boton envio formulario*/
+}
+
+@media (max-width:768px){
+    
+        .logo_esp {
+            padding-top: 9px;
+            padding-bottom: 10px;    
+        }
+
+        .num_esp {
+            font-size: 20px;
+            text-align: center;
+            padding-top: 34px;
+            color:#ffffff;
+            display: none;
+        }
+        
+        #mapa {
+	background-color: #FFFFFF;
+	padding-top: 0px;
+	padding-bottom: 30px;
+}
+}
